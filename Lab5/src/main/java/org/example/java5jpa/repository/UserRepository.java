@@ -1,0 +1,1 @@
+package org.example.java5jpa.repository;import org.example.java5jpa.entity.User;import org.springframework.data.jpa.repository.JpaRepository;public interface UserRepository extends JpaRepository<User, Integer> {}

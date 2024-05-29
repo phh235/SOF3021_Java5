@@ -1,0 +1,1 @@
+package org.example.java5jpa.service;import org.example.java5jpa.entity.User;public interface UserService {    User doSaveUser(User user);}
