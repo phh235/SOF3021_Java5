@@ -1,1 +1,1 @@
-package org.example.java5jpa.service;import org.example.java5jpa.entity.User;public interface UserService {    User doSaveUser(User user);}
+package org.example.java5jpa.service;import org.example.java5jpa.entity.User;import java.util.List;public interface UserService {    List<User> findAllUser();    User doSaveUser(User user);    void doDeleteUserById(int userId);    User findByUsername(String username);}
